@@ -19,26 +19,9 @@ function findPairs(array, target) {
         } else {
             output[target - array[i]] = array[i];
         }
-            
+
     }
 
     return output;
-
 }
-
 findPairs(array, target);
-
-/*
-    {
-        5: 3,
-        4: 4,
-        1: 7
-    
-    }
-    
-    
-    {
-        7: 1,
-        5: 3
-    }
-*/
