@@ -1,7 +1,5 @@
 // Given array of ints, find pairs that add to a given value
 // Solution O(n) time, O(n) Space
-var array = [3, 4, 7, 1, 5];
-var target = 11;
 
 function findPairs(array, target) {
 
@@ -24,4 +22,13 @@ function findPairs(array, target) {
 
     return output;
 }
-findPairs(array, target);
+
+var array = [];
+var target = Math.ceil(Math.random() * 100);
+
+for (var i = 0; i < 100; i++) {
+    array[i] = Math.ceil(Math.random() * 100);
+}
+console.log(array);
+console.log("Target = " + target);
+console.log(findPairs(array, target));
