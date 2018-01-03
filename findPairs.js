@@ -23,6 +23,20 @@ function findPairs(array, target) {
     return output;
 }
 
+/*
+    {
+        5: 3,
+        4: 4,
+        1: 7
+    }
+        
+        
+    {
+        7: 1,
+        5: 3
+    }
+*/
+
 var array = [];
 var target = Math.ceil(Math.random() * 100);
 
